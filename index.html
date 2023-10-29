@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BehiyenilayOgultekinPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+                <img src="images\Nilay.png" alt="logo images" class="logo">
+                <ul id="sidemenu">
+                   <li>
+                    <a href="#header">Home</a>
+                   </li> 
+                   <li>
+                    <a href="#services">Services</a>
+                   </li>
+                    <li>
+                    <a href="#about">About</a>
+                   </li> <li>
+                    <a href="#portfolio">Portfolio</a>
+                   </li> <li>
+                    <a href="#contact">Contact</a>
+                   </li> 
+                   <i class="fas fa-times fa-beat" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars fa-beat" onclick="openmenu()"></i>
+        </nav>
+        <div class="parallax header-text">
+            <p>Front end and Flutter developer</p>
+            <h1>Hi, I'm <span>Nilay</span><br> from Turkiye</h1>
+        </div>
+        <div class="contentparallax">
+
+        </div>
+    </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images\littleprofile.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Me
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio consectetur, magnam, hic voluptatum deserunt accusamus ipsa nobis quae modi distinctio earum magni amet, dignissimos similique minus harum! Ea, repellat et.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">
+                            Experience
+                        </p> 
+                        <p class="tab-links" onclick="opentab('education')">
+                            Education
+                        </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>
+                                    Flutter App Development
+                                </span>
+                                <br>
+                                    Designing Flutter Web/App interfaces and backend Development
+                            </li>
+                            <li>
+                                <span>
+                                    Front End Development
+                                </span>
+                                <br>
+                                    Web App Front-end Development 
+                            </li>
+                            <li>
+                                <span>
+                                    Project Managment and Planning
+                                </span>
+                                <br>
+                                    Project Managment,Team player,Team leader,Project planning
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>
+                                    2020-2021
+                                </span>
+                                <br>
+                                   SDU information technology department
+                            </li>
+                            <li>
+                                <span>
+                                    2022-2023
+                                </span>
+                                <br>
+                                    Traniee at Google App and Game Academy 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>
+                                    2020-Current
+                                </span>
+                                <br>
+                                   Suleyman Demirel University
+                                   <br>
+                                   Computer Engineering
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>
+                        Front-end Development
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repellat dolor ex eaque quas illo vitae aliquam delectus, eos itaque cumque libero nostrum molestiae inventore hic suscipit mollitia. Provident, voluptatum!</p>
+                    <a href="#">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>
+                        Flutter Development
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repellat dolor ex eaque quas illo vitae aliquam delectus, eos itaque cumque libero nostrum molestiae inventore hic suscipit mollitia. Provident, voluptatum!</p>
+                    <a href="#">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-list-check"></i>
+                    <h2>
+                        Project Manager and Planner
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repellat dolor ex eaque quas illo vitae aliquam delectus, eos itaque cumque libero nostrum molestiae inventore hic suscipit mollitia. Provident, voluptatum!</p>
+                    <a href="#">Learn more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images\work-1.png" alt="">
+                    <div class="layer">
+                        <h3>
+                            JetIlac App
+                        </h3>
+                        <p>
+                            Fastest way to deliver your pills.Dowloand it from PlayStore and App Store
+                        </p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\work-2.png" alt="">
+                    <div class="layer">
+                        <h3>
+                            Academy Mobile App
+                        </h3>
+                        <p>
+                            Access your own Google academy profile futures with this app.
+                        </p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\work-3.png" alt="">
+                    <div class="layer">
+                        <h3>
+                            JetIlac App Project Managment
+                        </h3>
+                        <p>
+                            The Product owner and Project Manager
+                        </p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more...</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>behiyenilayogultekin@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+90 548 678 547 890</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="images\behiyenilayogultekinCV.pdf" download class="btn btn2">Dowloand CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" id="Your Name" required>
+                        <input type="email" name="Email" id="Your Email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class=" btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright <i class="fa-solid fa-copyright"></i> Nilay,Made from Behiye Nilay Ogultekin
+            </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+           sidemeu.style.right="0";
+
+        }
+        function closemenu(){
+           sidemeu.style.right="-200px";
+    
+        } 
+        function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+window.addEventListener('scroll', function() {
+  let offset = window.pageYOffset;
+  let parallax = document.querySelector('.parallax');
+  parallax.style.opacity = 1 - offset / (parallax.offsetHeight / 2); // Opaklık değeri hesaplanıyor
+  parallax.style.transform = 'translateY(' + offset * 0.5 + 'px)'; // Yükseklik değişimi
+});
+    
+    </script>
+</body>
+</html>
